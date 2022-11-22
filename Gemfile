@@ -71,8 +71,8 @@ group :test do
   gem 'rails-controller-testing'
 end
 
-gem 'cssbundling-rails'
-gem 'jsbundling-rails'
+# gem 'cssbundling-rails'
+# gem 'jsbundling-rails'
 gem 'pg'
 gem 'faker'
 gem 'devise'
