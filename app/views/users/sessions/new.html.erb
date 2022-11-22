@@ -4,7 +4,7 @@
       <h2 class="card-title text-center">Sign In</h2>
     </div>
     <div class="card-body">
-      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name),method: :post, data: {turbo: false}) do |f| %>
         <div class="form-group">
           <%= f.label :username_or_email, class: 'mb-2' %>
           <%= f.text_field :login, class: "form-control form-control-lg" %>
